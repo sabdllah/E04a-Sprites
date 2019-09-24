@@ -6,6 +6,8 @@ The exercise takes place across three files:
 
  * main1.py:
    * The panda is feeling lonely. Change main1.py so that 20 random animals are displayed on the screen.
+   I could only generate one image at a time. I adjusted the code in many different ways and searched for possible solutions online without any luck. 
+
    * You will need to edit lines 26–32 to accomplish this assignment
    * To repeat something 20 times, you can use a loop:
      * for i in range(20):
@@ -17,6 +19,7 @@ The exercise takes place across three files:
      * y = random.randint(0,600)
  * main2.py:
    * The aligator would like someone to talk to. Move her over and add a second animal with a (corresponding) speech bubble.
+   This was surprisingly easy to do. I simply copied the same code and made minor adjustments to create a corresponding image. 
    * You will need to edit lines 48–56 to accomplish this assignment
    * self.animal_list and self.emote_list are lists of sprites that all get updated together
    * The .append() method adds an element to a list
@@ -27,10 +30,12 @@ The exercise takes place across three files:
    * If you look on lines 25–26, you will see that the sprite location is set using the center_x and center_y attributes
    * The moose is now part of the self.animal_list, so you will need to update the element(s) of that list:
      * for a in self.animal_list:
+     I was very happy when I completed this. I had to do some outside google search for how to complete this and was able to move the moose around with the mouse. Feeling very accomplished. 
  * main4.py—*extra credit*:
    * Find some other sprites, and make them into a collage
    * Using what you have learned in the other exercise files, draw at least ten sprites in the window
    * [kenney.nl](https://kenney.nl) or [openGameArt.org](https://opengameart.org) are resources for free images
    * If you would like to make them move or react to the mouse, I will award extra points
+   Did not have enough time to work on this part of the assignment. 
 
 As usual, fork and clone this repository. Edit the LICENSE and README.md, and submit the URL of your repository to Canvas.
